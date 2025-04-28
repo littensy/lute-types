@@ -1,0 +1,8 @@
+{
+	"languageMode": "strict",
+	"aliases": {
+		"lute": "./lute",
+		"std": "./std",
+		"batteries": "./batteries"
+	}
+}
