@@ -30,7 +30,7 @@ type ParserInterface = {
 	parse: (self: Parser, args: { string }) -> (),
 	get: (self: Parser, name: string) -> boolean,
 	has: (self: Parser, name: string) -> boolean,
-	forwarded: () -> { string }?,
+	forwarded: (self: Parser) -> { string }?,
 	help: (self: Parser) -> (),
 	__index: ParserInterface,
 }
